@@ -94,7 +94,91 @@ const Page = () => {
             <div className=" w-2/3 bg-black"></div>
           </div>
         </div>
+
+
+        <div className="w-full bg-black flex flex-col gap-4">
+          <div className="w-full flex flex-row justify-center p-2">
+            <h2 className="text-white">Faq</h2>
+          </div>
+          <div className="flex flex-col gap-6 items-center p-12">
+            <div className="w-full h-12 bg-white"></div>
+            <div className="w-full h-12 bg-white"></div>
+            <div className="w-full h-12 bg-white"></div>
+            <div className="w-full h-12 bg-white"></div>
+            <div className="w-full h-12 bg-white"></div>
+            <div className="w-full h-12 bg-white"></div>
+          </div>
+        </div>
+
+        <div className="w-full bg-black flex flex-col gap-4">
+          <div className="w-full flex flex-row justify-center p-2">
+            <h2 className="text-white">Price</h2>
+          </div>
+          <div className="flex flex-row justify-center gap-6 p-6">
+            <div className="w-1/4 h-96 bg-white"></div>
+            <div className="w-1/4 h-96 bg-white"></div>
+            <div className="w-1/4 h-96 bg-white"></div>
+          </div>
+        </div>
+
+        <div className="w-full bg-black flex flex-col gap-4">
+          <div className="w-full flex flex-row justify-center p-2">
+            <h2 className="text-white">Logos</h2>
+          </div>
+          <div className="flex flex-row justify-center gap-4 p-2 px-4">
+            <div className="h-12 w-1/6 bg-white"></div>
+            <div className="h-12 w-1/6 bg-white"></div>
+            <div className="h-12 w-1/6 bg-white"></div>
+            <div className="h-12 w-1/6 bg-white"></div>
+            <div className="h-12 w-1/6 bg-white"></div>
+            <div className="h-12 w-1/6 bg-white"></div>
+          </div>
+        </div>
+
+        <div className="w-full bg-black flex flex-col gap-4">
+          <div className="w-full flex flex-row justify-center p-2">
+            <h2 className="text-white">Adventages</h2>
+          </div>
+          <div className="grid grid-cols-3 gap-6 p-12">
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+          </div>
+        </div>
+
+        <div className="w-full bg-black flex flex-col gap-4">
+          <div className="w-full flex flex-row justify-center p-2">
+            <h2 className="text-white">Reviews</h2>
+          </div>
+          <div className="grid grid-cols-3 gap-12 p-12">
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+            <div className="h-64 w-full bg-white"></div>
+          </div>
+        </div>
+
+        <div className="w-full bg-black flex flex-col gap-4">
+          <div className="w-full flex flex-row justify-center p-2">
+            <h2 className="text-white">Reviews</h2>
+          </div>
+          <div className="flex flex-row  gap-12 p-12">
+            <div className="h-96 w-full bg-white"></div>
+            <div className="h-96 w-full bg-white"></div>
+            <div className="h-96 w-full bg-white"></div>
+          </div>
+        </div>
       </main>
+      <footer className="w-full h-96 bg-black">
+        <div className="flex justify-center" >
+          <h2 className="text-white">footer</h2>
+        </div>
+      </footer>
     </>
   );
 };
